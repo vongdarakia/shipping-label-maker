@@ -1,0 +1,119 @@
+.shipping-label-maker {
+    width: 80%;
+    max-width: 800px;
+    margin: 36px auto;
+}
+
+.shipping-label-maker-header .progress {
+    margin: 16px 0;
+}
+
+.shipping-label-maker .prompt {
+    margin-bottom: 24px;
+}
+
+.shipping-label-maker .row, .shipping-label-maker .form-row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.shipping-label-maker .other-address-detail {
+    display: flex;
+}
+
+.shipping-label-maker .form-group.horizontal {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.shipping-label-maker .form-group.horizontal label {
+    flex: 1 0 60px !important;
+    margin: 0;
+    padding-right: 8px;
+}
+
+.shipping-label-maker .form-group-state {
+    margin-left: auto;
+    margin-right: auto;
+    flex: 1 0 25%;
+    padding: 0px 16px;
+}
+
+.shipping-label-maker .form-group-city {
+    flex: 1 0 45%;
+}
+
+.shipping-label-maker .form-group-zip {
+    flex: 1 0 30%;
+}
+
+.shipping-label-maker .form-group-state label, .shipping-label-maker .form-group-zip label {
+    flex: unset !important;
+    width: fit-content !important;
+    padding-right: 16px !important;
+    text-align: right;
+}
+
+.shipping-label-maker .container-step {
+    margin-top: 36px;
+}
+
+.shipping-label-maker .section-form {
+    min-height: 220px;
+}
+
+.shipping-label-maker .section-actions {
+    text-align: center;
+}
+
+.shipping-label-maker .section-actions button {
+    margin: 0 6px;
+}
+
+.shipping-label-maker .shipping-cost {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    margin: 24px 0;
+    width: 100%;
+}
+
+.shipping-label-maker .shipping-cost .line-item {
+    display: flex;
+}
+
+.shipping-label-maker .shipping-cost .line-item .name {
+    text-align: right;
+    padding-right: 12px;
+    flex: 1;
+}
+
+.shipping-label-maker .shipping-cost .line-item .value {
+    text-align: right;
+    width: 160px;
+}
+
+.shipping-label-maker .shipping-cost hr {
+    width: 100%;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.shipping-label-maker .addresses {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shipping-label-maker .addresses .card {
+    font-size: 14px;
+    width: calc(50% - 10px);
+}
+
+.shipping-label-maker .addresses .card-header {
+    font-weight: 600;
+}
+
+.shipping-label-maker .form-check-input, .shipping-label-maker .form-check label {
+    cursor: pointer;
+}
